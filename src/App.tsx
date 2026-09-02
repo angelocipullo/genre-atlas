@@ -1,41 +1,26 @@
-import { useCallback, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import GraphCanvas from "./components/GraphCanvas";
-import DetailPanel from "./components/DetailPanel";
-import { genreBySlug } from "./lib/genreGraph";
 import "./App.css";
 
 export default function App() {
-  const { slug } = useParams();
   const navigate = useNavigate();
-  const selectedSlug = slug && genreBySlug.has(slug) ? slug : null;
 
   const handleSelect = useCallback(
-    (next: string | null) => {
-      navigate(next ? `/genere/${next}` : "/", { replace: false });
+    (slug: string | null) => {
+      if (slug) navigate(`/genre/${slug}`);
     },
     [navigate]
   );
 
-  useEffect(() => {
-    function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") handleSelect(null);
-    }
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [handleSelect]);
-
   return (
-    <div className={`app${selectedSlug ? " app--with-detail" : ""}`}>
-      <Sidebar selectedSlug={selectedSlug} onSelect={handleSelect} />
+    <div className="app">
+      <Sidebar selectedSlug={null} onSelect={handleSelect} />
       <main className="app__canvas">
-        <GraphCanvas selectedSlug={selectedSlug} onSelect={handleSelect} />
+        <GraphCanvas selectedSlug={null} onSelect={handleSelect} />
         <Legend />
       </main>
-      {selectedSlug && (
-        <DetailPanel slug={selectedSlug} onSelect={handleSelect} onClose={() => handleSelect(null)} />
-      )}
     </div>
   );
 }
