@@ -1,6 +1,9 @@
+"use client";
+
 import { useMemo, useState } from "react";
 import { useLanguage } from "../i18n/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { cn } from "../lib/cn";
 import type { Genre } from "../types";
 
 interface Props {
@@ -49,27 +52,30 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
     });
   }
 
+  const inputClass =
+    "w-full bg-surface-2 border border-wire rounded-lg text-ink px-[10px] py-2 text-[13px] focus:outline-none focus:ring-1 focus:ring-accent";
+
   return (
-    <aside className="sidebar">
-      <div className="sidebar__header">
-        <div className="sidebar__header-row">
-          <h1 className="sidebar__title">Genre Atlas</h1>
+    <aside className="border-r border-wire bg-surface flex flex-col min-h-0 max-[900px]:max-h-[40vh]">
+      <div className="px-[18px] pt-5 pb-[14px] border-b border-wire">
+        <div className="flex items-center justify-between gap-2">
+          <h1 className="text-[18px] font-bold tracking-[-0.01em]">Genre Atlas</h1>
           <LanguageSwitcher />
         </div>
-        <p className="sidebar__subtitle">{t("app.subtitle")}</p>
+        <p className="mt-1 text-[12px] text-ink-muted leading-[1.4]">{t("app.subtitle")}</p>
       </div>
 
-      <div className="sidebar__filters">
+      <div className="px-[18px] py-[14px] border-b border-wire flex flex-col gap-[10px]">
         <input
-          className="sidebar__search"
+          className={inputClass}
           type="search"
           placeholder={t("sidebar.searchPlaceholder")}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
-        <div className="sidebar__filter-row">
+        <div className="flex items-center gap-[10px]">
           <select
-            className="sidebar__select"
+            className={cn(inputClass, "flex-1")}
             value={country}
             onChange={(e) => setCountry(e.target.value)}
           >
@@ -80,7 +86,7 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
               </option>
             ))}
           </select>
-          <label className="sidebar__checkbox">
+          <label className="flex items-center gap-1.5 text-[12px] text-ink-muted whitespace-nowrap cursor-pointer">
             <input
               type="checkbox"
               checked={macroOnly}
@@ -91,39 +97,57 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
         </div>
       </div>
 
-      <nav className="sidebar__list">
+      <nav className="flex-1 overflow-y-auto py-2 pb-6">
         {visibleFamilies.length === 0 && (
-          <p className="sidebar__empty">{t("sidebar.empty")}</p>
+          <p className="px-[18px] py-[18px] text-[12px] text-ink-faint">{t("sidebar.empty")}</p>
         )}
         {visibleFamilies.map((f) => {
           const color = colorForFamily(f.root.slug);
           const isCollapsed = collapsed.has(f.root.slug);
           return (
-            <div key={f.root.slug} className="sidebar__family">
+            <div key={f.root.slug}>
               <button
-                className="sidebar__family-header"
+                className="w-full flex items-center gap-2 px-[18px] py-2 bg-transparent border-none cursor-pointer text-left hover:bg-surface-2 transition-colors"
                 onClick={() => toggleFamily(f.root.slug)}
               >
-                <span className="sidebar__family-dot" style={{ background: color }} />
-                <span className="sidebar__family-name">{f.root.name}</span>
-                <span className="sidebar__family-count">{f.members.length}</span>
-                <span className={`sidebar__chevron${isCollapsed ? " sidebar__chevron--collapsed" : ""}`}>
+                <span
+                  className="w-2 h-2 rounded-full flex-shrink-0"
+                  style={{ background: color }}
+                />
+                <span className="text-[12px] font-bold uppercase tracking-[0.05em] text-ink-muted">
+                  {f.root.name}
+                </span>
+                <span className="text-[11px] text-ink-faint">{f.members.length}</span>
+                <span
+                  className={cn(
+                    "ml-auto text-[10px] text-ink-faint transition-transform duration-150",
+                    isCollapsed && "-rotate-90"
+                  )}
+                >
                   ▾
                 </span>
               </button>
               {!isCollapsed && (
-                <ul className="sidebar__genres">
+                <ul className="pb-1.5">
                   {f.members.map((g) => (
                     <li key={g.slug}>
                       <button
-                        className={`sidebar__genre${g.slug === selectedSlug ? " sidebar__genre--active" : ""}`}
+                        className={cn(
+                          "w-full flex items-baseline gap-2 px-[18px] py-1.5 pl-[34px] bg-transparent border-none cursor-pointer text-left text-[13px] text-ink hover:bg-surface-2 transition-colors",
+                          g.slug === selectedSlug &&
+                            "bg-surface-2 shadow-[inset_2px_0_0_#4fa3d1]"
+                        )}
                         onClick={() => onSelect(g.slug === selectedSlug ? null : g.slug)}
                       >
-                        <span className="sidebar__genre-name">
+                        <span className="flex-1 flex items-center gap-1.5">
                           {g.name}
-                          {g.isMacro && <span className="sidebar__macro-badge">{t("sidebar.macroBadge")}</span>}
+                          {g.isMacro && (
+                            <span className="text-[9px] uppercase tracking-[0.04em] text-ink-faint border border-wire rounded px-1 py-px">
+                              {t("sidebar.macroBadge")}
+                            </span>
+                          )}
                         </span>
-                        <span className="sidebar__genre-year">{g.yearStart ?? "?"}</span>
+                        <span className="text-[11px] text-ink-faint">{g.yearStart ?? "?"}</span>
                       </button>
                     </li>
                   ))}

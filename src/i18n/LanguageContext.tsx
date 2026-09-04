@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, useContext, useEffect, useMemo, type ReactNode } from "react";
 import type { Locale } from "./locales";
 import { STRINGS, type StringKey } from "./strings";
@@ -28,7 +30,6 @@ export function LanguageProvider({ lang, children }: Props) {
 
   useEffect(() => {
     document.documentElement.lang = lang;
-    document.title = STRINGS[lang]["meta.title"];
   }, [lang]);
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;

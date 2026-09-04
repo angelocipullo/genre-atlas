@@ -1,3 +1,5 @@
+"use client";
+
 import { useMemo, useCallback } from "react";
 import ReactFlow, {
   Background,
@@ -55,9 +57,7 @@ export default function GraphCanvas({ selectedSlug, onSelect }: Props) {
         const kind = e.data!.kind;
         const weight = e.data!.weight;
         const active =
-          highlighted &&
-          highlighted.has(e.source) &&
-          highlighted.has(e.target);
+          highlighted && highlighted.has(e.source) && highlighted.has(e.target);
         const dimmed = highlighted ? !active : false;
         return {
           ...e,
@@ -95,7 +95,7 @@ export default function GraphCanvas({ selectedSlug, onSelect }: Props) {
       maxZoom={2}
       proOptions={{ hideAttribution: true }}
     >
-      <Background variant={BackgroundVariant.Dots} gap={22} size={1} color="var(--grid-dot)" />
+      <Background variant={BackgroundVariant.Dots} gap={22} size={1} color="#1c2028" />
       <Controls showInteractive={false} />
       <MiniMap
         pannable
