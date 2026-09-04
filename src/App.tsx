@@ -2,16 +2,18 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import GraphCanvas from "./components/GraphCanvas";
+import { useLanguage } from "./i18n/LanguageContext";
 import "./App.css";
 
 export default function App() {
   const navigate = useNavigate();
+  const { lang } = useLanguage();
 
   const handleSelect = useCallback(
     (slug: string | null) => {
-      if (slug) navigate(`/genre/${slug}`);
+      if (slug) navigate(`/${lang}/genre/${slug}`);
     },
-    [navigate]
+    [navigate, lang]
   );
 
   return (
@@ -26,15 +28,16 @@ export default function App() {
 }
 
 function Legend() {
+  const { t } = useLanguage();
   return (
     <div className="legend">
       <div className="legend__group">
         <span className="legend__line legend__line--solid" />
-        sottogenere / derivato
+        {t("legend.subgenre")}
       </div>
       <div className="legend__group">
         <span className="legend__line legend__line--dashed" />
-        influenzato da
+        {t("legend.influence")}
       </div>
     </div>
   );

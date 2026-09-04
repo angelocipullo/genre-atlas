@@ -30,6 +30,12 @@
   color: var(--text);
 }
 
+.genre-page__topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .genre-page__home-link {
   font-size: 13px;
   color: var(--accent);

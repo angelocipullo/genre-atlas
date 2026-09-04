@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { families, countries } from "../lib/genreGraph";
-import { colorForFamily } from "../lib/colors";
+import { useLanguage } from "../i18n/LanguageContext";
+import LanguageSwitcher from "./LanguageSwitcher";
 import type { Genre } from "../types";
 
 interface Props {
@@ -19,6 +19,8 @@ function matches(genre: Genre, query: string): boolean {
 }
 
 export default function Sidebar({ selectedSlug, onSelect }: Props) {
+  const { t, data } = useLanguage();
+  const { families, countries, colorForFamily } = data;
   const [query, setQuery] = useState("");
   const [country, setCountry] = useState("");
   const [macroOnly, setMacroOnly] = useState(false);
@@ -36,7 +38,7 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
         ),
       }))
       .filter((f) => f.members.length > 0);
-  }, [query, country, macroOnly]);
+  }, [families, query, country, macroOnly]);
 
   function toggleFamily(rootSlug: string) {
     setCollapsed((prev) => {
@@ -50,15 +52,18 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
   return (
     <aside className="sidebar">
       <div className="sidebar__header">
-        <h1 className="sidebar__title">Genre Atlas</h1>
-        <p className="sidebar__subtitle">Enciclopedia dei generi elettronici e delle loro influenze</p>
+        <div className="sidebar__header-row">
+          <h1 className="sidebar__title">Genre Atlas</h1>
+          <LanguageSwitcher />
+        </div>
+        <p className="sidebar__subtitle">{t("app.subtitle")}</p>
       </div>
 
       <div className="sidebar__filters">
         <input
           className="sidebar__search"
           type="search"
-          placeholder="Cerca genere, alias, città…"
+          placeholder={t("sidebar.searchPlaceholder")}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -68,7 +73,7 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
             value={country}
             onChange={(e) => setCountry(e.target.value)}
           >
-            <option value="">Tutti i paesi</option>
+            <option value="">{t("sidebar.allCountries")}</option>
             {countries.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -81,14 +86,14 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
               checked={macroOnly}
               onChange={(e) => setMacroOnly(e.target.checked)}
             />
-            Solo macro-generi
+            {t("sidebar.macroOnly")}
           </label>
         </div>
       </div>
 
       <nav className="sidebar__list">
         {visibleFamilies.length === 0 && (
-          <p className="sidebar__empty">Nessun genere corrisponde ai filtri.</p>
+          <p className="sidebar__empty">{t("sidebar.empty")}</p>
         )}
         {visibleFamilies.map((f) => {
           const color = colorForFamily(f.root.slug);
@@ -116,7 +121,7 @@ export default function Sidebar({ selectedSlug, onSelect }: Props) {
                       >
                         <span className="sidebar__genre-name">
                           {g.name}
-                          {g.isMacro && <span className="sidebar__macro-badge">macro</span>}
+                          {g.isMacro && <span className="sidebar__macro-badge">{t("sidebar.macroBadge")}</span>}
                         </span>
                         <span className="sidebar__genre-year">{g.yearStart ?? "?"}</span>
                       </button>

@@ -20,6 +20,13 @@
   border-bottom: 1px solid var(--border);
 }
 
+.sidebar__header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
 .sidebar__title {
   font-size: 18px;
   font-weight: 700;

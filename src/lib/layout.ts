@@ -1,7 +1,7 @@
 import dagre from "dagre";
 import type { Edge, Node } from "reactflow";
 import { Position } from "reactflow";
-import { genres, genreBySlug, familyRoot } from "./genreGraph";
+import type { GenreData } from "./genreGraph";
 import type { Genre, RelationKind } from "../types";
 
 export const NODE_WIDTH = 188;
@@ -18,7 +18,11 @@ export interface GenreEdgeData {
   weight: number;
 }
 
-export function buildGraph(): { nodes: Node<GenreNodeData>[]; edges: Edge<GenreEdgeData>[] } {
+export function buildGraph(
+  data: GenreData
+): { nodes: Node<GenreNodeData>[]; edges: Edge<GenreEdgeData>[] } {
+  const { genres, genreBySlug, familyRoot } = data;
+
   const g = new dagre.graphlib.Graph();
   g.setGraph({ rankdir: "LR", nodesep: 28, ranksep: 130, marginx: 20, marginy: 20 });
   g.setDefaultEdgeLabel(() => ({}));

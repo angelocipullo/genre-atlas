@@ -10,8 +10,7 @@ import ReactFlow, {
 } from "reactflow";
 import "reactflow/dist/style.css";
 import { buildGraph, type GenreNodeData, type GenreEdgeData } from "../lib/layout";
-import { lineageOf } from "../lib/genreGraph";
-import { colorForFamily } from "../lib/colors";
+import { useLanguage } from "../i18n/LanguageContext";
 import GenreNode from "./GenreNode";
 
 const nodeTypes = { genre: GenreNode };
@@ -30,10 +29,11 @@ interface Props {
 }
 
 export default function GraphCanvas({ selectedSlug, onSelect }: Props) {
-  const graph = useMemo(() => buildGraph(), []);
+  const { data } = useLanguage();
+  const graph = useMemo(() => buildGraph(data), [data]);
   const highlighted = useMemo(
-    () => (selectedSlug ? lineageOf(selectedSlug) : null),
-    [selectedSlug]
+    () => (selectedSlug ? data.lineageOf(selectedSlug) : null),
+    [selectedSlug, data]
   );
 
   const nodes: Node<GenreNodeData>[] = useMemo(
@@ -100,7 +100,7 @@ export default function GraphCanvas({ selectedSlug, onSelect }: Props) {
       <MiniMap
         pannable
         zoomable
-        nodeColor={(n) => colorForFamily((n.data as GenreNodeData).familyRootSlug)}
+        nodeColor={(n) => data.colorForFamily((n.data as GenreNodeData).familyRootSlug)}
         maskColor="rgba(10,12,16,0.75)"
       />
     </ReactFlow>

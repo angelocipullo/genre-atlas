@@ -1,7 +1,7 @@
 import { memo } from "react";
 import { Handle, Position } from "reactflow";
 import type { GenreNodeData } from "../lib/layout";
-import { colorForFamily } from "../lib/colors";
+import { useLanguage } from "../i18n/LanguageContext";
 
 interface Props {
   data: GenreNodeData;
@@ -9,8 +9,9 @@ interface Props {
 }
 
 function GenreNodeImpl({ data, selected }: Props) {
+  const { data: genreData } = useLanguage();
   const { genre, familyRootSlug } = data;
-  const color = colorForFamily(familyRootSlug);
+  const color = genreData.colorForFamily(familyRootSlug);
   const dimmed = data.__dimmed as boolean | undefined;
 
   return (
