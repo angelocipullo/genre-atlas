@@ -1,13 +1,9 @@
-import itRaw from "../data/genres.it.json";
-import enRaw from "../data/genres.en.json";
+import genresRaw from "../data/genres.json";
 import rhythmsRaw from "../data/rhythms.json";
-import type { Genre, GenresDataset, ParentRef, RelationKind, RhythmPattern } from "../types";
+import type { Genre, RawGenresDataset, ParentRef, RelationKind, RhythmPattern } from "../types";
 import type { Locale } from "../i18n/locales";
 
-const RAW: Record<Locale, GenresDataset> = {
-  it: itRaw as unknown as GenresDataset,
-  en: enRaw as unknown as GenresDataset,
-};
+const RAW = genresRaw as unknown as RawGenresDataset;
 
 // Rhythm patterns are language-independent, so they're kept in one shared
 // file (keyed by slug) instead of being duplicated per locale dataset.
@@ -67,9 +63,16 @@ export interface GenreData {
   colorForFamily(rootSlug: string): string;
 }
 
-function buildGenreData(dataset: GenresDataset, locale: Locale): GenreData {
-  const genres: Genre[] = dataset.genres.map((g) => ({
+function buildGenreData(locale: Locale): GenreData {
+  const genres: Genre[] = RAW.genres.map((g) => ({
     ...g,
+    summary: g.summary[locale] ?? g.summary.it ?? "",
+    description: g.description[locale] ?? g.description.it ?? "",
+    history: g.history ? (g.history[locale] ?? g.history.it ?? null) : null,
+    tracks: g.tracks.map((t) => ({
+      ...t,
+      note: t.note ? (t.note[locale] ?? t.note.it ?? null) : null,
+    })),
     rhythm: RHYTHMS[g.slug] ?? null,
   }));
 
@@ -208,7 +211,7 @@ const cache = new Map<Locale, GenreData>();
 export function getGenreData(locale: Locale): GenreData {
   const cached = cache.get(locale);
   if (cached) return cached;
-  const data = buildGenreData(RAW[locale], locale);
+  const data = buildGenreData(locale);
   cache.set(locale, data);
   return data;
 }

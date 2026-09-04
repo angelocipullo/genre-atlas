@@ -1,0 +1,2043 @@
+{
+  "version": "0.1.0",
+  "license": "CC-BY-SA-4.0",
+  "genres": [
+    {
+      "slug": "house",
+      "name": "House",
+      "aka": [
+        "chicago house"
+      ],
+      "summary": {
+        "it": "Nata nei club di Chicago dalla disco suonata su drum machine, la house si costruisce su una cassa in quattro e un groove ripetitivo pensato per la pista.",
+        "en": "Born in Chicago's clubs from disco played on drum machines, house is built on a four-on-the-floor kick and a repetitive groove made for the dancefloor."
+      },
+      "description": {
+        "it": "Cassa dritta su ogni quarto, hi-hat aperto sugli ottavi in levare, clap sul secondo e quarto. La strumentazione fondativa è la Roland TR-808 e TR-909 più campionatori economici. Struttura a loop lunghi, pensata per il mixaggio in console.",
+        "en": "Straight kick on every quarter, open hi-hat on the off-beat eighths, clap on beats two and four. The foundational gear is the Roland TR-808 and TR-909 plus cheap samplers. Long-loop structure, built for mixing on the console."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1984,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 118,
+      "bpmMax": 130,
+      "originCity": "Chicago",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [],
+      "tracks": [
+        {
+          "slug": "on-and-on",
+          "role": "origin",
+          "note": {
+            "it": "Spesso indicata come la prima house track pubblicata su vinile.",
+            "en": "Often cited as the first house track pressed to vinyl."
+          }
+        },
+        {
+          "slug": "move-your-body",
+          "role": "defining",
+          "note": {
+            "it": "Il piano che le è valso il sottotitolo \"The House Music Anthem\".",
+            "en": "The piano riff that earned it the nickname \"The House Music Anthem.\""
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "deep-house",
+      "name": "Deep House",
+      "aka": [],
+      "summary": {
+        "it": "Ramo più caldo e jazzato della house, con accordi estesi, pad e una voce spesso soul.",
+        "en": "The warmer, jazzier branch of house, with extended chords, pads and often soulful vocals."
+      },
+      "description": {
+        "it": "Accordi di settima e nona, bassline melodiche, tempo contenuto. Meno orientata al picco della serata e più al tessuto.",
+        "en": "Seventh and ninth chords, melodic basslines, restrained tempo. Less about the night's peak moment, more about texture."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1986,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 118,
+      "bpmMax": 125,
+      "originCity": "Chicago",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "can-you-feel-it",
+          "role": "defining",
+          "note": {
+            "it": "Larry Heard porta pad e accordi estesi dentro la house.",
+            "en": "Larry Heard brings pads and extended chords into house."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "acid-house",
+      "name": "Acid House",
+      "aka": [],
+      "summary": {
+        "it": "Definita da un singolo strumento: il Roland TB-303, usato fuori dal suo scopo originario per produrre linee di basso squelchy e risonanti.",
+        "en": "Defined by a single instrument: the Roland TB-303, used outside its intended purpose to produce squelchy, resonant basslines."
+      },
+      "description": {
+        "it": "Il carattere del genere sta nella modulazione in tempo reale di cutoff, risonanza e accent della TB-303 sopra una ritmica house standard.",
+        "en": "The genre's character lies in real-time modulation of the TB-303's cutoff, resonance and accent over a standard house rhythm."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1987,
+      "yearEnd": null,
+      "yearPrecision": "exact",
+      "bpmMin": 118,
+      "bpmMax": 130,
+      "originCity": "Chicago",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "acid-tracks",
+          "role": "defining",
+          "note": {
+            "it": "La TB-303 usata in modo non previsto dal costruttore: nasce un genere da un malinteso.",
+            "en": "The TB-303 used in a way its maker never intended: a genre born from a misunderstanding."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "garage-house",
+      "name": "Garage House",
+      "aka": [
+        "new york garage",
+        "paradise garage sound"
+      ],
+      "summary": {
+        "it": "La linea newyorkese della house, più vocale e gospel, legata al Paradise Garage e a Larry Levan.",
+        "en": "The New York strand of house, more vocal and gospel-inflected, tied to the Paradise Garage and Larry Levan."
+      },
+      "description": {
+        "it": "Voci intere invece che campioni, arrangiamenti vicini alla disco e al soul, produzione più suonata.",
+        "en": "Full vocal takes rather than samples, arrangements close to disco and soul, more live-played production."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1985,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 118,
+      "bpmMax": 126,
+      "originCity": "New York",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "your-love",
+          "role": "classic",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "tech-house",
+      "name": "Tech House",
+      "aka": [],
+      "summary": {
+        "it": "Incrocio tra il groove della house e la severità ritmica della techno: sound design minimale, poche voci, focus sul basso.",
+        "en": "A cross between house's groove and techno's rhythmic severity: minimal sound design, few vocals, bass-focused."
+      },
+      "description": {
+        "it": "Percussioni asciutte, bassline sincopate, arrangiamenti funzionali al DJ set. È il caso da manuale di genere con due genitori.",
+        "en": "Dry percussion, syncopated basslines, arrangements built for the DJ set. The textbook case of a genre with two parents."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1995,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 122,
+      "bpmMax": 128,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 0.6
+        },
+        {
+          "slug": "techno",
+          "kind": "subgenre_of",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "latin-house",
+      "name": "Latin House",
+      "aka": [
+        "tribal house"
+      ],
+      "summary": {
+        "it": "House costruita su percussioni latine e caraibiche, congas e timbales al posto della sola drum machine.",
+        "en": "House built on Latin and Caribbean percussion, congas and timbales in place of the drum machine alone."
+      },
+      "description": {
+        "it": "Pattern percussivi poliritmici, spesso voci in spagnolo, forte legame con le scene di New York e Miami.",
+        "en": "Polyrhythmic percussion patterns, often Spanish-language vocals, strong ties to the New York and Miami scenes."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1992,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 122,
+      "bpmMax": 128,
+      "originCity": "New York",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "progressive-house",
+      "name": "Progressive House",
+      "aka": [],
+      "summary": {
+        "it": "House a struttura lunga e progressiva, costruita su build-up estesi più che sul loop.",
+        "en": "Long-form, progressive house built on extended build-ups rather than the loop."
+      },
+      "description": {
+        "it": "Arrangiamenti di otto minuti o più, layering graduale, breakdown ampi. Nasce come reazione britannica alla house americana più diretta.",
+        "en": "Eight-minute-plus arrangements, gradual layering, wide breakdowns. Born as a British reaction to more direct American house."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1991,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 124,
+      "bpmMax": 132,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "slap-house",
+      "name": "Slap House",
+      "aka": [
+        "brazilian bass",
+        "deep slap"
+      ],
+      "summary": {
+        "it": "House popolare degli anni duemilaventi costruita su un basso \"schiaffeggiante\" compresso e pompante, con melodie emotive e drop potenti da festival.",
+        "en": null
+      },
+      "description": {
+        "it": "Il suono caratteristico nasce dalla compressione aggressiva del side-chain applicata a un sub-basso molto presente, che crea il tipico effetto \"slap\" sincronizzato alla cassa. Struttura da canzone con strofa, ritornello ed emotional drop; produzione laccata e commerciale. Resa popolare dalla scena brasiliana online e da artisti come Alok, si diffonde rapidamente su Spotify e nei festival EDM mainstream.",
+        "en": null
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2018,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 122,
+      "bpmMax": 128,
+      "originCity": "São Paulo",
+      "originCountry": "BR",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "progressive-house",
+          "kind": "derived_from",
+          "weight": 0.6
+        },
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "afro-house",
+      "name": "Afro House",
+      "aka": [],
+      "summary": {
+        "it": "House con percussioni e vocalità di matrice africana, forte in Sudafrica e in Angola.",
+        "en": "House with percussion and vocals of African origin, strong in South Africa and Angola."
+      },
+      "description": {
+        "it": "Percussioni acustiche in primo piano, canto corale, tempo moderato. Ponte tra la house occidentale e le scene del continente africano.",
+        "en": "Acoustic percussion up front, choral singing, moderate tempo. A bridge between Western house and the scenes of the African continent."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2005,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 118,
+      "bpmMax": 125,
+      "originCity": "Johannesburg",
+      "originCountry": "ZA",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "techno",
+      "name": "Techno",
+      "aka": [
+        "detroit techno"
+      ],
+      "summary": {
+        "it": "Nata a Detroit dall'incontro tra funk elettronico, synth europei e immaginario post-industriale. Più fredda e macchinica della house.",
+        "en": "Born in Detroit from the meeting of electronic funk, European synths and post-industrial imagery. Colder and more machinelike than house."
+      },
+      "description": {
+        "it": "Timbriche sintetiche, assenza quasi totale di voce, ripetizione come principio compositivo. Riferimenti dichiarati a Kraftwerk e alla fantascienza.",
+        "en": "Synthetic timbres, near-total absence of vocals, repetition as a compositional principle. Explicit references to Kraftwerk and science fiction."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1985,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 125,
+      "bpmMax": 150,
+      "originCity": "Detroit",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "influenced_by",
+          "weight": 0.5
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "clear",
+          "role": "origin",
+          "note": {
+            "it": "Formalmente electro, ma la genealogia della techno di Detroit parte da qui.",
+            "en": "Formally electro, but Detroit techno's lineage starts here."
+          }
+        },
+        {
+          "slug": "no-ufos",
+          "role": "defining",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        },
+        {
+          "slug": "strings-of-life",
+          "role": "classic",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "minimal-techno",
+      "name": "Minimal Techno",
+      "aka": [],
+      "summary": {
+        "it": "Riduzione della techno all'essenziale: pochi elementi, variazioni micro, ipnosi per accumulo.",
+        "en": "Techno stripped to its essentials: few elements, micro-variations, hypnosis through accumulation."
+      },
+      "description": {
+        "it": "Palette sonora ridotta al minimo, cambiamenti quasi impercettibili distribuiti su tempi lunghi.",
+        "en": "Sound palette reduced to a minimum, almost imperceptible changes spread across long stretches of time."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1994,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 125,
+      "bpmMax": 135,
+      "originCity": "Detroit",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "techno",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "uk-garage",
+      "name": "UK Garage",
+      "aka": [
+        "ukg"
+      ],
+      "summary": {
+        "it": "Reinterpretazione britannica del garage house: pitchata verso l'alto, con bassline pesanti e voci tagliate.",
+        "en": "A British reinterpretation of garage house: pitched up, with heavy basslines and chopped vocals."
+      },
+      "description": {
+        "it": "Nasce dalla pratica dei DJ londinesi di suonare i dischi garage americani a velocità aumentata. Da lì si stacca in un genere autonomo con proprie regole ritmiche.",
+        "en": "Born from London DJs' practice of playing American garage records sped up. From there it breaks off into an autonomous genre with its own rhythmic rules."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1995,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 128,
+      "bpmMax": 138,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "garage-house",
+          "kind": "derived_from",
+          "weight": 0.7
+        },
+        {
+          "slug": "jungle",
+          "kind": "influenced_by",
+          "weight": 0.3
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "speed-garage",
+      "name": "Speed Garage",
+      "aka": [],
+      "summary": {
+        "it": "Prima ondata della UK garage, con bassline reesi presi in prestito dalla jungle e cassa ancora in quattro.",
+        "en": "The first wave of UK garage, with reese basslines borrowed from jungle and the kick still on the four."
+      },
+      "description": {
+        "it": "Bassi distorti e modulati, effetti dub, campioni vocali pitchati.",
+        "en": "Distorted, modulated bass, dub effects, pitched-up vocal samples."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1997,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 138,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "uk-garage",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "rip-groove",
+          "role": "defining",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "2-step",
+      "name": "2-Step",
+      "aka": [
+        "2step",
+        "two step",
+        "2-step garage"
+      ],
+      "summary": {
+        "it": "Toglie la cassa dal secondo e quarto quarto: il risultato è un groove zoppicante e sincopato che definisce il suono UK di fine anni novanta.",
+        "en": "Drops the kick from the second and fourth beat: the result is a limping, syncopated groove that defines the UK sound of the late nineties."
+      },
+      "description": {
+        "it": "Pattern di batteria senza four-to-the-floor, swing accentuato, voci R&B tagliate e riassemblate, sub-bass pulito.",
+        "en": "Drum patterns without four-to-the-floor, heavy swing, chopped-and-rearranged R&B vocals, clean sub-bass."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1997,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 138,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "uk-garage",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "re-rewind",
+          "role": "classic",
+          "note": {
+            "it": "Il 2-step entra nelle classifiche pop britanniche.",
+            "en": "2-step reaches the British pop charts."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "4x4-garage",
+      "name": "4x4 Garage",
+      "aka": [
+        "4-4 garage",
+        "four to the floor garage"
+      ],
+      "summary": {
+        "it": "Ramo della UK garage che mantiene la cassa dritta, più vicino alla house rispetto al 2-step.",
+        "en": "The branch of UK garage that keeps the straight kick, closer to house than 2-step."
+      },
+      "description": {
+        "it": "Groove dritto con le bassline e le voci del vocabolario garage.",
+        "en": "Straight groove with the basslines and vocals of the garage vocabulary."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1997,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 128,
+      "bpmMax": 136,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "uk-garage",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "bassline",
+      "name": "Bassline",
+      "aka": [
+        "niche",
+        "bassline house"
+      ],
+      "summary": {
+        "it": "Evoluzione del 4x4 garage nel nord dell'Inghilterra, centrata sul club Niche di Sheffield.",
+        "en": "An evolution of 4x4 garage in the north of England, centered on Sheffield's Niche club."
+      },
+      "description": {
+        "it": "Bassline squadrate e aggressive, tempo alto, forte impronta locale.",
+        "en": "Squared-off, aggressive basslines, fast tempo, strong local identity."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2002,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 140,
+      "originCity": "Sheffield",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "4x4-garage",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "uk-funky",
+      "name": "UK Funky",
+      "aka": [
+        "funky house uk"
+      ],
+      "summary": {
+        "it": "Ritorno a un groove percussivo e tribale dopo l'era grime, con influenze soca e afro.",
+        "en": "A return to a percussive, tribal groove after the grime era, with soca and Afro influences."
+      },
+      "description": {
+        "it": "Percussioni in primo piano, tempo attorno ai 130, voci soulful, struttura più leggera del grime.",
+        "en": "Percussion up front, tempo around 130, soulful vocals, lighter structure than grime."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2008,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 125,
+      "bpmMax": 132,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "uk-garage",
+          "kind": "derived_from",
+          "weight": 1
+        },
+        {
+          "slug": "afro-house",
+          "kind": "influenced_by",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "breakbeat-hardcore",
+      "name": "Breakbeat Hardcore",
+      "aka": [
+        "hardcore rave"
+      ],
+      "summary": {
+        "it": "Il suono rave britannico dei primi anni novanta: break campionati, stab hoover e voci accelerate.",
+        "en": "The British rave sound of the early nineties: sampled breaks, hoover stabs and sped-up vocals."
+      },
+      "description": {
+        "it": "Amen break e altri break funk campionati, tempo in salita, estetica rave.",
+        "en": "Amen break and other sampled funk breaks, rising tempo, rave aesthetics."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1990,
+      "yearEnd": 1993,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 150,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "jungle",
+      "name": "Jungle",
+      "aka": [],
+      "summary": {
+        "it": "Break amen tagliati a velocità estrema sopra bassline reggae e sub in mezzo tempo.",
+        "en": "Amen breaks chopped at extreme speed over reggae basslines and half-time sub-bass."
+      },
+      "description": {
+        "it": "Doppia velocità percepita: batteria a 160-170, basso in mezzo tempo. Eredità sound system giamaicana evidente nel trattamento del basso.",
+        "en": "A perceived double speed: drums at 160-170, bass at half time. Jamaican sound system heritage evident in the bass treatment."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1992,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 155,
+      "bpmMax": 175,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "breakbeat-hardcore",
+          "kind": "derived_from",
+          "weight": 1
+        },
+        {
+          "slug": "reggae",
+          "kind": "influenced_by",
+          "weight": 0.5
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "drum-and-bass",
+      "name": "Drum and Bass",
+      "aka": [
+        "dnb",
+        "d&b",
+        "drum & bass"
+      ],
+      "summary": {
+        "it": "Codificazione più pulita e prodotta della jungle, con maggiore attenzione al sound design.",
+        "en": "A cleaner, more produced codification of jungle, with greater attention to sound design."
+      },
+      "description": {
+        "it": "Break più processati e meno riconoscibili, bassi progettati al sintetizzatore, struttura standardizzata su due drop.",
+        "en": "More processed, less recognizable breaks, synthesizer-designed bass, structure standardized around two drops."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1994,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 165,
+      "bpmMax": 180,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "jungle",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "dubstep",
+      "name": "Dubstep",
+      "aka": [],
+      "summary": {
+        "it": "Mezzo tempo a 140 BPM, spazio negativo e sub-bass come elemento principale, nato dal ramo più scuro del 2-step.",
+        "en": "Half-time at 140 BPM, negative space and sub-bass as the main element, born from the darker branch of 2-step."
+      },
+      "description": {
+        "it": "Rullante sul terzo quarto, ampio spazio vuoto tra i colpi, bassi modulati che occupano il centro del mix.",
+        "en": "Snare on the third beat, wide empty space between hits, modulated bass occupying the center of the mix."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2002,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 138,
+      "bpmMax": 142,
+      "originCity": "Croydon",
+      "originCountry": "GB",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "2-step",
+          "kind": "derived_from",
+          "weight": 0.6
+        },
+        {
+          "slug": "dub",
+          "kind": "influenced_by",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "midnight-request-line",
+          "role": "defining",
+          "note": {
+            "it": "La traccia che porta il dubstep fuori da Croydon.",
+            "en": "The track that carries dubstep out of Croydon."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "uk-dubstep",
+      "name": "UK Dubstep",
+      "aka": [
+        "dark dubstep",
+        "south london dubstep"
+      ],
+      "summary": {
+        "it": "La forma originale e più oscura del dubstep londinese prima della commercializzazione americana: sub-bass sinusoidali profondi, half-time, spazio cavernoso e influenza dub tangibile.",
+        "en": null
+      },
+      "description": {
+        "it": "Distinto dal brostep americano per sobrietà e profondità: la modulazione del basso è contenuta e ipnotica piuttosto che aggressiva, il mix privilegia le frequenze sub e i mid-range reverberati. Riferimenti al sound system culture giamaicana, al dub e alla musica del Rinse FM. Produttori come Digital Mystikz, Loefah e Skream ne definiscono i canoni tra il 2003 e il 2008.",
+        "en": null
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2003,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 138,
+      "bpmMax": 142,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "dubstep",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "anti-war-dub",
+          "role": "defining",
+          "note": {
+            "it": "Digital Mystikz portano il dubstep alla sua espressione più oscura e dub.",
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "future-bass",
+      "name": "Future Bass",
+      "aka": [],
+      "summary": {
+        "it": "EDM emozionale con accordi \"pluck\" squillanti, synth pad caldi, voci chopparate e drop costruiti sull'accumulo armonico più che sulla brutalità del basso.",
+        "en": null
+      },
+      "description": {
+        "it": "Il drop è costruito su chord stab tagliati in ritmo (\"chords as rhythm\"), con un sub-bass contenuto rispetto al dubstep ma dinamiche molto ampie. Le voci sono spesso filtrate e pitch-shiftate come elemento melodico. Vicino al trap per il ritmo ma più luminoso nell'armonia; popularizzato da Flume, Cashmere Cat e Rustie, poi diventato estetica standard della scena SoundCloud e di YouTube.",
+        "en": null
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2012,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 160,
+      "originCity": "Sydney",
+      "originCountry": "AU",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "dubstep",
+          "kind": "influenced_by",
+          "weight": 0.4
+        },
+        {
+          "slug": "trap",
+          "kind": "influenced_by",
+          "weight": 0.3
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "holdin-on",
+          "role": "defining",
+          "note": {
+            "it": "Flume fissa l'estetica future bass: chord stab ritmici, voci filtrate, produzione cristallina.",
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "grime",
+      "name": "Grime",
+      "aka": [
+        "eskibeat",
+        "sublow"
+      ],
+      "summary": {
+        "it": "Elettronica spigolosa a 140 BPM costruita per essere rappata sopra: sintetizzatori economici, ritmica scarna, MC al centro.",
+        "en": "Angular electronic music at 140 BPM built to be rapped over: cheap synthesizers, sparse rhythm, the MC at the center."
+      },
+      "description": {
+        "it": "Prodotto spesso su hardware e software economici, con timbriche volutamente digitali e fredde. Il legame con le radio pirata londinesi è costitutivo.",
+        "en": "Often produced on cheap hardware and software, with deliberately digital, cold timbres. Its link to London pirate radio is foundational."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2002,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 138,
+      "bpmMax": 142,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "2-step",
+          "kind": "derived_from",
+          "weight": 0.5
+        },
+        {
+          "slug": "dancehall",
+          "kind": "influenced_by",
+          "weight": 0.3
+        },
+        {
+          "slug": "jungle",
+          "kind": "influenced_by",
+          "weight": 0.2
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "eskimo",
+          "role": "defining",
+          "note": {
+            "it": "Il beat che dà il nome all'eskibeat.",
+            "en": "The beat that gives eskibeat its name."
+          }
+        },
+        {
+          "slug": "i-luv-u",
+          "role": "defining",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "ska",
+      "name": "Ska",
+      "aka": [],
+      "summary": {
+        "it": "Primo genere popolare giamaicano moderno: offbeat di chitarra, fiati e tempo veloce.",
+        "en": "The first modern popular Jamaican genre: guitar offbeats, horns and fast tempo."
+      },
+      "description": {
+        "it": "Accento sul levare della chitarra e del piano, sezione fiati prominente, influenze mento e rhythm and blues americano.",
+        "en": "Accent on the upstroke of guitar and piano, prominent horn section, mento and American rhythm and blues influences."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1960,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 120,
+      "bpmMax": 160,
+      "originCity": "Kingston",
+      "originCountry": "JM",
+      "isMacro": true,
+      "parents": [],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "rocksteady",
+      "name": "Rocksteady",
+      "aka": [],
+      "summary": {
+        "it": "Rallentamento dello ska, con il basso promosso a strumento melodico principale.",
+        "en": "A slowdown of ska, with the bass promoted to lead melodic instrument."
+      },
+      "description": {
+        "it": "Meno fiati, più voce armonizzata, linee di basso scritte come melodie autonome.",
+        "en": "Fewer horns, more harmonized vocals, basslines written as independent melodies."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1966,
+      "yearEnd": 1968,
+      "yearPrecision": "circa",
+      "bpmMin": 80,
+      "bpmMax": 100,
+      "originCity": "Kingston",
+      "originCountry": "JM",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "ska",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "reggae",
+      "name": "Reggae",
+      "aka": [],
+      "summary": {
+        "it": "Groove in levare con accento sul terzo quarto (one drop) e basso profondo; da qui passa quasi tutta la musica giamaicana successiva.",
+        "en": "An offbeat groove with the accent on the third beat (one drop) and deep bass; nearly all subsequent Jamaican music passes through here."
+      },
+      "description": {
+        "it": "Skank di chitarra sui controtempi, pattern one drop alla batteria, basso corposo e ripetitivo.",
+        "en": "Guitar skank on the off-beats, one-drop pattern on the drums, full, repetitive bass."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1968,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 60,
+      "bpmMax": 90,
+      "originCity": "Kingston",
+      "originCountry": "JM",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "rocksteady",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "do-the-reggay",
+          "role": "origin",
+          "note": {
+            "it": "Prima incisione a usare la parola nel titolo.",
+            "en": "The first recording to use the word in its title."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "dub",
+      "name": "Dub",
+      "aka": [],
+      "summary": {
+        "it": "Il remix prima del remix: si toglie la voce e si trattano batteria e basso con delay e riverbero, trasformando il mixer in strumento.",
+        "en": "The remix before the remix: strip out the vocal and treat drums and bass with delay and reverb, turning the mixing desk into an instrument."
+      },
+      "description": {
+        "it": "Pratica di studio più che genere di scrittura: drop-out, echi a nastro, riverberi a molla, versioni strumentali sul lato B.",
+        "en": "A studio practice more than a genre of songwriting: drop-outs, tape echoes, spring reverbs, instrumental versions on the B-side."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1972,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 60,
+      "bpmMax": 90,
+      "originCity": "Kingston",
+      "originCountry": "JM",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "reggae",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "dancehall",
+      "name": "Dancehall",
+      "aka": [
+        "ragga",
+        "raggamuffin"
+      ],
+      "summary": {
+        "it": "Riddim elettronici e deejay in primo piano; dagli anni ottanta è il centro di gravità della musica giamaicana.",
+        "en": "Electronic riddims and the deejay up front; since the eighties it has been the center of gravity of Jamaican music."
+      },
+      "description": {
+        "it": "Riddim riutilizzati da più artisti come base condivisa, produzione digitale dal 1985 in poi, voce di tipo deejay.",
+        "en": "Riddims reused by multiple artists as a shared backing track, digital production from 1985 onward, deejay-style vocals."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1979,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 90,
+      "bpmMax": 110,
+      "originCity": "Kingston",
+      "originCountry": "JM",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "reggae",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "kwaito",
+      "name": "Kwaito",
+      "aka": [],
+      "summary": {
+        "it": "House rallentata a tempo di passo con voci parlate in slang di township, colonna sonora del Sudafrica post-apartheid.",
+        "en": "House slowed to a walking pace with spoken vocals in township slang, the soundtrack of post-apartheid South Africa."
+      },
+      "description": {
+        "it": "House importata e rallentata attorno ai 100 BPM, testi in isiZulu, sesotho e tsotsitaal.",
+        "en": "Imported house slowed to around 100 BPM, lyrics in isiZulu, Sesotho and tsotsitaal."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1994,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 100,
+      "bpmMax": 115,
+      "originCity": "Johannesburg",
+      "originCountry": "ZA",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "derived_from",
+          "weight": 0.7
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "amapiano",
+      "name": "Amapiano",
+      "aka": [
+        "piano"
+      ],
+      "summary": {
+        "it": "Suono sudafricano costruito attorno al log drum, con pad jazzati, tempo lento e lunghe strutture ipnotiche.",
+        "en": "A South African sound built around the log drum, with jazzy pads, slow tempo and long hypnotic structures."
+      },
+      "description": {
+        "it": "Il log drum è un basso percussivo sintetizzato che funge insieme da linea di basso e da elemento ritmico. Brani lunghi, shaker costanti, accordi di piano deep house.",
+        "en": "The log drum is a synthesized percussive bass that serves as both bassline and rhythmic element. Long tracks, constant shakers, deep-house piano chords."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2012,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 108,
+      "bpmMax": 118,
+      "originCity": "Gauteng",
+      "originCountry": "ZA",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "deep-house",
+          "kind": "derived_from",
+          "weight": 0.4
+        },
+        {
+          "slug": "kwaito",
+          "kind": "influenced_by",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "gqom",
+      "name": "Gqom",
+      "aka": [],
+      "summary": {
+        "it": "Nato a Durban: ritmica spezzata e cruda, senza cassa dritta, percussioni scure e minimali.",
+        "en": "Born in Durban: broken, raw rhythm, no straight kick, dark, minimal percussion."
+      },
+      "description": {
+        "it": "Pattern in tripletta e groove spezzati, produzione volutamente grezza, uso massiccio di percussioni e vuoti.",
+        "en": "Triplet patterns and broken grooves, deliberately raw production, heavy use of percussion and empty space."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2011,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 122,
+      "bpmMax": 130,
+      "originCity": "Durban",
+      "originCountry": "ZA",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "house",
+          "kind": "derived_from",
+          "weight": 0.5
+        },
+        {
+          "slug": "kwaito",
+          "kind": "influenced_by",
+          "weight": 0.5
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "omunye",
+          "role": "modern_example",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "afrobeat",
+      "name": "Afrobeat",
+      "aka": [],
+      "summary": {
+        "it": "Il genere di Fela Kuti: highlife, jazz e funk in brani lunghi e politici. Da non confondere con gli afrobeats al plurale.",
+        "en": "Fela Kuti's genre: highlife, jazz and funk in long, political tracks. Not to be confused with the plural afrobeats."
+      },
+      "description": {
+        "it": "Brani di dieci o venti minuti, sezione fiati ampia, groove poliritmico, testi di critica politica.",
+        "en": "Ten- to twenty-minute tracks, large horn section, polyrhythmic groove, politically critical lyrics."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1968,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 100,
+      "bpmMax": 130,
+      "originCity": "Lagos",
+      "originCountry": "NG",
+      "isMacro": true,
+      "parents": [],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "afrobeats",
+      "name": "Afrobeats",
+      "aka": [
+        "afropop",
+        "naija pop"
+      ],
+      "summary": {
+        "it": "Pop dell'Africa occidentale degli anni duemila, che unisce highlife, dancehall e produzione digitale. Termine ombrello, non un discendente diretto dell'afrobeat.",
+        "en": "West African pop of the 2000s, blending highlife, dancehall and digital production. An umbrella term, not a direct descendant of afrobeat."
+      },
+      "description": {
+        "it": "Etichetta commerciale nata nella diaspora londinese per raggruppare produzioni nigeriane e ghanesi molto diverse tra loro.",
+        "en": "A commercial label born in the London diaspora to group together very different Nigerian and Ghanaian productions."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2008,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 100,
+      "bpmMax": 115,
+      "originCity": "Lagos",
+      "originCountry": "NG",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "dancehall",
+          "kind": "influenced_by",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "rhythm-and-blues",
+      "name": "Rhythm and Blues",
+      "aka": [
+        "r&b",
+        "rnb",
+        "rhythm & blues"
+      ],
+      "summary": {
+        "it": "Il ceppo afroamericano del secondo dopoguerra che fonde blues, jazz e gospel in canzoni da ballo per un pubblico nero urbano: la base armonica e vocale da cui discendono soul, funk e, più tardi, l'hip hop.",
+        "en": "The postwar African American strand that fuses blues, jazz and gospel into dance songs for a Black urban audience: the harmonic and vocal foundation from which soul, funk and, later, hip hop descend."
+      },
+      "description": {
+        "it": "Sezione ritmica marcata sul backbeat (secondo e quarto), forme blues a dodici battute o canzone pop, voce spesso di matrice gospel con schema call-and-response, combo con fiati e piano. Nasce come categoria commerciale che sostituisce l'etichetta razzista \"race records\" e diventa presto un linguaggio autonomo.",
+        "en": "Rhythm section marked on the backbeat (two and four), twelve-bar blues forms or pop song structures, vocals often of gospel origin with call-and-response phrasing, combos with horns and piano. It emerges as a commercial category replacing the racist label \"race records\" and soon becomes an autonomous idiom."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1945,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 70,
+      "bpmMax": 140,
+      "originCity": "New Orleans",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [],
+      "tracks": [
+        {
+          "slug": "good-rocking-tonight",
+          "role": "origin",
+          "note": {
+            "it": "Nella versione di Roy Brown (1947) è tra i primi dischi a incarnare il nuovo suono ribattezzato rhythm and blues.",
+            "en": "In Roy Brown's version (1947), among the first records to embody the new sound renamed rhythm and blues."
+          }
+        },
+        {
+          "slug": "hound-dog",
+          "role": "defining",
+          "note": {
+            "it": "Big Mama Thornton porta groove e attitudine blues dentro la forma canzone R&B.",
+            "en": "Big Mama Thornton brings blues groove and attitude into the R&B song form."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "funk",
+      "name": "Funk",
+      "aka": [],
+      "summary": {
+        "it": "James Brown scompone il beat dall'accordo: la chitarra diventa percussione, il basso detta la sincope e il groove si costruisce sul primo movimento di ogni battuta, \"the one\".",
+        "en": "James Brown strips the beat down to the chord: the guitar becomes percussion, the bass dictates the syncopation, and the groove is built on the first beat of every bar, \"the one.\""
+      },
+      "description": {
+        "it": "Downbeat marcato (\"on the one\"), chitarre chicken-scratch percussive, fiati a stab, bassline sincopate spesso in slap. Forme aperte a vamp ripetuto più che progressioni armoniche complesse.",
+        "en": "A hard downbeat (\"on the one\"), percussive chicken-scratch guitars, stabbing horns, syncopated basslines often slapped. Open forms built on a repeated vamp rather than complex harmonic progressions."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1965,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 95,
+      "bpmMax": 125,
+      "originCity": "Cincinnati",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "rhythm-and-blues",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "papas-got-a-brand-new-bag",
+          "role": "origin",
+          "note": {
+            "it": "James Brown riduce l'armonia a un vamp e sposta il centro sul groove ritmico: nasce il funk.",
+            "en": "James Brown reduces the harmony to a vamp and shifts the center to rhythmic groove: funk is born."
+          }
+        },
+        {
+          "slug": "sex-machine",
+          "role": "defining",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "hip-hop",
+      "name": "Hip Hop",
+      "aka": [
+        "rap"
+      ],
+      "summary": {
+        "it": "Nato alle feste di quartiere del Bronx come pratica da DJ — isolare e ripetere il break strumentale dei dischi funk e soul — diventa presto anche voce: MC che parlano a ritmo sul beat.",
+        "en": "Born at Bronx block parties as a DJ practice — isolating and looping the instrumental break of funk and soul records — it soon becomes a voice too: MCs talking rhythmically over the beat."
+      },
+      "description": {
+        "it": "Quattro elementi fondativi: DJing (break-beat, scratch), MCing (rap), breaking (danza), graffiti. Musicalmente nasce dal campionamento e loop del break percussivo di dischi funk, soul e disco, poi da basi prodotte da zero con drum machine.",
+        "en": "Four founding elements: DJing (breakbeats, scratching), MCing (rapping), breaking (dance), graffiti. Musically it begins with sampling and looping the percussive break of funk, soul and disco records, then with beats built from scratch on drum machines."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1973,
+      "yearEnd": null,
+      "yearPrecision": "exact",
+      "bpmMin": 80,
+      "bpmMax": 115,
+      "originCity": "Bronx",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "funk",
+          "kind": "derived_from",
+          "weight": 0.5
+        },
+        {
+          "slug": "rhythm-and-blues",
+          "kind": "influenced_by",
+          "weight": 0.2
+        },
+        {
+          "slug": "dub",
+          "kind": "influenced_by",
+          "weight": 0.3
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "rappers-delight",
+          "role": "defining",
+          "note": {
+            "it": "Il primo successo commerciale del rap, costruito sul loop di \"Good Times\" degli Chic.",
+            "en": "The first commercial rap hit, built on a loop of Chic's \"Good Times.\""
+          }
+        },
+        {
+          "slug": "the-message",
+          "role": "classic",
+          "note": {
+            "it": "Grandmaster Flash porta il rap fuori dalla festa e dentro la cronaca sociale.",
+            "en": "Grandmaster Flash carries rap out of the party and into social commentary."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "trap",
+      "name": "Trap",
+      "aka": [],
+      "summary": {
+        "it": "Il suono di Atlanta anni duemila per raccontare il \"trap\", la casa dove si spaccia: 808 a martello, hi-hat arpeggiati in trentaduesimi, atmosfere cupe da colonna sonora horror.",
+        "en": "The 2000s sound of Atlanta telling the story of the \"trap,\" the house where drugs are sold: hammering 808s, hi-hats arpeggiated in thirty-second notes, dark horror-soundtrack atmospheres."
+      },
+      "description": {
+        "it": "Cassa e sub 808 spesso pitchati per intonare la bassline, hi-hat con roll rapidi e triplette, rullante in levare, synth minori e campanacci orientaleggianti. Testi centrati sull'economia della strada.",
+        "en": "Kick and 808 sub often pitched to tune the bassline, hi-hats with fast rolls and triplets, snare on the off-beat, minor-key synths and Middle-Eastern-tinged bells. Lyrics centered on street economics."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2003,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 170,
+      "originCity": "Atlanta",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "hip-hop",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "trap-house",
+          "role": "origin",
+          "note": {
+            "it": "L'album di debutto di Gucci Mane che dà il nome e l'immaginario al genere.",
+            "en": "Gucci Mane's debut album, which gives the genre its name and imagery."
+          }
+        },
+        {
+          "slug": "stay-fly",
+          "role": "classic",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "drill",
+      "name": "Drill",
+      "aka": [
+        "chicago drill"
+      ],
+      "summary": {
+        "it": "Costola cupa e minacciosa del trap nata nel South Side di Chicago: 808 pesantissimi, ritmiche sincopate e irregolari, testi crudi da cronaca di strada.",
+        "en": "A dark, menacing offshoot of trap born on Chicago's South Side: crushing 808s, syncopated and irregular rhythms, raw street-reportage lyrics."
+      },
+      "description": {
+        "it": "Tempo lento e strascicato nonostante hi-hat frenetici, bassline 808 glissate, synth industriali. Legata a doppio filo al fenomeno del \"drill su YouTube\" e ai diss track tra crew rivali.",
+        "en": "Slow, dragging tempo despite frantic hi-hats, sliding 808 basslines, industrial synths. Tightly linked to the \"drill on YouTube\" phenomenon and diss tracks between rival crews."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2011,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 60,
+      "bpmMax": 70,
+      "originCity": "Chicago",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "trap",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "i-dont-like",
+          "role": "defining",
+          "note": {
+            "it": "Chief Keef porta il drill di Chicago all'attenzione nazionale.",
+            "en": "Chief Keef brings Chicago drill to national attention."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "uk-drill",
+      "name": "UK Drill",
+      "aka": [],
+      "summary": {
+        "it": "Il drill di Chicago trapiantato a Londra si ibrida con l'ossatura ritmica della grime e prende un accento tutto britannico, fatto di slang locale e bassline scivolate.",
+        "en": "Chicago drill transplanted to London hybridizes with grime's rhythmic backbone and takes on a thoroughly British accent, made of local slang and sliding basslines."
+      },
+      "description": {
+        "it": "Eredita 808 glissate e tempo dilatato dal drill americano, ma innesta pattern di hi-hat e groove sincopato vicini alla grime; produzione spesso affidata a team di producer specializzati.",
+        "en": "It inherits sliding 808s and stretched-out tempo from American drill, but grafts on hi-hat patterns and syncopated groove close to grime; production is often handled by specialized producer teams."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2012,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 138,
+      "bpmMax": 142,
+      "originCity": "London",
+      "originCountry": "GB",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "drill",
+          "kind": "derived_from",
+          "weight": 0.7
+        },
+        {
+          "slug": "grime",
+          "kind": "influenced_by",
+          "weight": 0.3
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "rage",
+      "name": "Rage",
+      "aka": [],
+      "summary": {
+        "it": "Trap portata al parossismo: synth distorti e saturi, hi-hat che sembrano glitch, energia da mosh pit più vicina al punk che al rap tradizionale.",
+        "en": "Trap taken to the extreme: distorted, saturated synths, hi-hats that sound like glitches, mosh-pit energy closer to punk than to traditional rap."
+      },
+      "description": {
+        "it": "Produzioni dense e sature, spesso con plugin di sintesi gratuiti usati fuori standard, cassa e 808 distorti, struttura pensata per l'ascolto dal vivo e il crowd surf.",
+        "en": "Dense, saturated productions, often using free synthesis plugins pushed past their limits, distorted kick and 808s, structure built for live performance and crowd surfing."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2018,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 140,
+      "bpmMax": 160,
+      "originCity": "Atlanta",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "trap",
+          "kind": "subgenre_of",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "stop-breathing",
+          "role": "defining",
+          "note": {
+            "it": "Playboi Carti fissa l'estetica satura e caotica del rage.",
+            "en": "Playboi Carti sets the saturated, chaotic aesthetic of rage."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "phonk",
+      "name": "Phonk",
+      "aka": [
+        "memphis phonk",
+        "drift phonk"
+      ],
+      "summary": {
+        "it": "Nato su SoundCloud dal campionamento dei nastri Memphis rap degli anni novanta: 808 pesanti, cowbell, voci rallentate e un'estetica cupa che ibridizza il rap del Sud con la cultura internet.",
+        "en": null
+      },
+      "description": {
+        "it": "Sample di cassette Memphis rap (Three 6 Mafia, DJ Screw), 808 distorte, cowbell in primo piano, hi-hat arpeggiati, atmosfera dark e dilatata. La variante \"drift phonk\" rallenta ulteriormente il tempo e accompagna video di drifting automobilistico diventati virali su TikTok.",
+        "en": null
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2012,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 160,
+      "originCity": "Memphis",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "trap",
+          "kind": "subgenre_of",
+          "weight": 0.6
+        },
+        {
+          "slug": "hip-hop",
+          "kind": "influenced_by",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "phonky-town",
+          "role": "defining",
+          "note": {
+            "it": "PlayaPhonk porta il genere all'attenzione globale via TikTok.",
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "g-funk",
+      "name": "G-Funk",
+      "aka": [
+        "gangsta funk"
+      ],
+      "summary": {
+        "it": "Dr. Dre veste il gangsta rap della West Coast con sintetizzatori a manovella, bassline funk suonate dal vivo e campioni Parliament-Funkadelic: il suono di Los Angeles dei primi anni novanta.",
+        "en": "Dr. Dre dresses West Coast gangsta rap in whining synths, live-played funk basslines and Parliament-Funkadelic samples: the sound of Los Angeles in the early nineties."
+      },
+      "description": {
+        "it": "Synth lead \"whiny\" spesso Moog, bassline funk suonate o ricreate, campionamento massiccio del catalogo P-Funk, tempo rilassato, produzione lussuosa rispetto al boom-bap coevo della East Coast.",
+        "en": "Whiny lead synths, often Moog, played or re-created funk basslines, heavy sampling of the P-Funk catalog, relaxed tempo, production more lush than the contemporaneous East Coast boom-bap."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1992,
+      "yearEnd": null,
+      "yearPrecision": "exact",
+      "bpmMin": 90,
+      "bpmMax": 100,
+      "originCity": "Los Angeles",
+      "originCountry": "US",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "hip-hop",
+          "kind": "subgenre_of",
+          "weight": 0.6
+        },
+        {
+          "slug": "funk",
+          "kind": "derived_from",
+          "weight": 0.4
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "nuthin-but-a-g-thang",
+          "role": "defining",
+          "note": {
+            "it": "Dr. Dre e Snoop Dogg fissano il suono G-funk su scala mainstream.",
+            "en": "Dr. Dre and Snoop Dogg set the G-funk sound on a mainstream scale."
+          }
+        },
+        {
+          "slug": "regulate",
+          "role": "classic",
+          "note": {
+            "it": null,
+            "en": null
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "miami-bass",
+      "name": "Miami Bass",
+      "aka": [
+        "booty bass"
+      ],
+      "summary": {
+        "it": "Elettro portato all'estremo dei subwoofer: 808 martellanti, tempo veloce e ritornelli da call-and-response pensati per le autoradio truccate di Miami.",
+        "en": "Electro pushed to subwoofer extremes: hammering 808s, fast tempo and call-and-response hooks built for Miami's tricked-out car stereos."
+      },
+      "description": {
+        "it": "Base 808 con cassa e tom pesantissimi, tempo elevato, campioni vocali spesso espliciti, forte legame con la cultura delle autoradio truccate e delle competizioni di volume.",
+        "en": "808-driven backing with heavy kick and toms, fast tempo, often explicit vocal samples, strong ties to trunk-rattling car audio culture and volume competitions."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1985,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 140,
+      "originCity": "Miami",
+      "originCountry": "US",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "hip-hop",
+          "kind": "derived_from",
+          "weight": 0.7
+        },
+        {
+          "slug": "funk",
+          "kind": "influenced_by",
+          "weight": 0.3
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "planet-rock",
+          "role": "origin",
+          "note": {
+            "it": "Il template elettro-funk di Afrika Bambaataa che ispira il suono di Miami.",
+            "en": "Afrika Bambaataa's electro-funk template that inspires the Miami sound."
+          }
+        },
+        {
+          "slug": "throw-the-d",
+          "role": "defining",
+          "note": {
+            "it": "I 2 Live Crew fissano tono esplicito e beat 808 del Miami bass.",
+            "en": "2 Live Crew sets the explicit tone and 808 beat of Miami bass."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "funk-carioca",
+      "name": "Funk Carioca",
+      "aka": [
+        "baile funk",
+        "brazilian funk"
+      ],
+      "summary": {
+        "it": "Il Miami bass importato nelle favelas di Rio diventa colonna sonora dei baile: 808 riletti in chiave locale, MC che improvvisano su basi condivise da tutta la scena.",
+        "en": "Miami bass imported into Rio's favelas becomes the soundtrack of the baile: 808s reworked with a local twist, MCs improvising over instrumentals shared across the whole scene."
+      },
+      "description": {
+        "it": "Bassline 808 spesso costruite sul \"tamborzão\", un pattern percussivo elettronico condiviso da centinaia di produttori come base comune (simile ai riddim giamaicani), voce ritmata vicina al rap, tempo sostenuto pensato per il ballo in pista.",
+        "en": "808 basslines often built on the \"tamborzão,\" an electronic percussion pattern shared by hundreds of producers as a common backing track (similar to Jamaican riddims), rhythmic vocals close to rap, tempo built for dancing on the floor."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1989,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 130,
+      "bpmMax": 150,
+      "originCity": "Rio de Janeiro",
+      "originCountry": "BR",
+      "isMacro": true,
+      "parents": [
+        {
+          "slug": "miami-bass",
+          "kind": "derived_from",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "slug": "rap-das-armas",
+          "role": "classic",
+          "note": {
+            "it": "Il tamborzão diventa riconoscibile a livello internazionale.",
+            "en": "The tamborzão becomes recognizable internationally."
+          }
+        }
+      ],
+      "sources": []
+    },
+    {
+      "slug": "brega",
+      "name": "Brega",
+      "aka": [],
+      "summary": {
+        "it": "Pop romantico e melodrammatico del Nord del Brasile, a lungo bollato come \"di cattivo gusto\" dalle élite culturali del Sud e poi rivendicato con orgoglio dalle periferie.",
+        "en": "Romantic, melodramatic pop from the North of Brazil, long dismissed as \"tacky\" by the cultural elites of the South and later reclaimed with pride by the periphery."
+      },
+      "description": {
+        "it": "Melodie sentimentali, orchestrazioni pop economiche, voce enfatica ed espressiva; il termine (letteralmente \"cafone\") nasce come insulto di classe e viene poi riappropriato dalla scena stessa.",
+        "en": "Sentimental melodies, cheap pop orchestrations, emphatic and expressive vocals; the term (literally \"tacky\") starts as a class insult and is later reappropriated by the scene itself."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 1970,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 80,
+      "bpmMax": 120,
+      "originCity": "Recife",
+      "originCountry": "BR",
+      "isMacro": true,
+      "parents": [],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "brega-funk",
+      "name": "Brega Funk",
+      "aka": [],
+      "summary": {
+        "it": "L'incontro tra il sentimentalismo melodico del brega e il beat elettronico del funk carioca, nato a Recife e diventato fenomeno di ballo virale grazie al \"passinho\".",
+        "en": "The meeting of brega's melodic sentimentality with funk carioca's electronic beat, born in Recife and turned into a viral dance phenomenon thanks to the \"passinho.\""
+      },
+      "description": {
+        "it": "Bassline da funk carioca reinterpretate con melodie e synth da brega, tempo leggermente più contenuto rispetto al funk carioca, forte componente coreografica pensata per i social.",
+        "en": "Funk carioca basslines reinterpreted with brega melodies and synths, tempo slightly more restrained than funk carioca, a strong choreographic component built for social media."
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2008,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 125,
+      "bpmMax": 140,
+      "originCity": "Recife",
+      "originCountry": "BR",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "brega",
+          "kind": "subgenre_of",
+          "weight": 0.5
+        },
+        {
+          "slug": "funk-carioca",
+          "kind": "derived_from",
+          "weight": 0.5
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    },
+    {
+      "slug": "funk-rave",
+      "name": "Funk Rave",
+      "aka": [],
+      "summary": {
+        "it": "Incrocio brasiliano tra il funk carioca e l'energia dei rave elettronici europei: tempo accelerato oltre i 150 BPM, sintetizzatori aggressivi e un'estetica che mischia favela e dancefloor techno.",
+        "en": null
+      },
+      "description": {
+        "it": "Eredita il tamborzão e le bassline 808 del funk carioca ma spinge il tempo e innesta elementi di hardstyle, trance e techno industriale. La produzione è satura e distorta; le tracce circolano principalmente su TikTok e nelle playlist di festival brasiliani. Fenomeno emerso nella pandemia e esploso nel 2022-2023.",
+        "en": null
+      },
+      "history": {
+        "it": null,
+        "en": null
+      },
+      "yearStart": 2020,
+      "yearEnd": null,
+      "yearPrecision": "circa",
+      "bpmMin": 150,
+      "bpmMax": 175,
+      "originCity": "Rio de Janeiro",
+      "originCountry": "BR",
+      "isMacro": false,
+      "parents": [
+        {
+          "slug": "funk-carioca",
+          "kind": "derived_from",
+          "weight": 0.7
+        }
+      ],
+      "tracks": [],
+      "sources": []
+    }
+  ]
+}

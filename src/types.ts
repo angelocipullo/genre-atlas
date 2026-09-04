@@ -1,5 +1,7 @@
 export type RelationKind = "subgenre_of" | "derived_from" | "influenced_by";
 
+export type LocalizedString = { it: string | null; en: string | null };
+
 export interface ParentRef {
   slug: string;
   kind: RelationKind;
@@ -10,6 +12,12 @@ export interface TrackRef {
   slug: string;
   role: string;
   note: string | null;
+}
+
+export interface RawTrackRef {
+  slug: string;
+  role: string;
+  note: LocalizedString | null;
 }
 
 export interface RhythmPattern {
@@ -53,4 +61,30 @@ export interface GenresDataset {
   version: string;
   license: string;
   genres: Genre[];
+}
+
+export interface RawGenre {
+  slug: string;
+  name: string;
+  aka: string[];
+  summary: LocalizedString;
+  description: LocalizedString;
+  history: LocalizedString | null;
+  yearStart: number | null;
+  yearEnd: number | null;
+  yearPrecision: string;
+  bpmMin: number | null;
+  bpmMax: number | null;
+  originCity: string | null;
+  originCountry: string | null;
+  isMacro: boolean;
+  parents: ParentRef[];
+  tracks: RawTrackRef[];
+  sources: unknown[];
+}
+
+export interface RawGenresDataset {
+  version: string;
+  license: string;
+  genres: RawGenre[];
 }
