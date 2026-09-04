@@ -2103,7 +2103,8 @@
       1,
       1,
       1
-    ]
+    ],
+    "tempoMultiplier": 2
   },
   "uk-drill": {
     "steps": 16,

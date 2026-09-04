@@ -18,6 +18,13 @@ export interface RhythmPattern {
   snare?: number[];
   hats?: number[];
   perc?: number[];
+  /**
+   * Some genres (e.g. drill) list a "felt" half-time BPM even though the
+   * groove is actually played at double that speed. Multiplies the genre's
+   * bpmMin/bpmMax before deriving step duration, without affecting the BPM
+   * shown elsewhere on the page. Defaults to 1.
+   */
+  tempoMultiplier?: number;
 }
 
 export interface Genre {

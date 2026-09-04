@@ -42,7 +42,8 @@ export default function StepSequencer({ rhythm, bpmMin, bpmMax }: Props) {
     };
   }, []);
 
-  const bpm = bpmMin && bpmMax ? (bpmMin + bpmMax) / 2 : bpmMin ?? bpmMax ?? 120;
+  const baseBpm = bpmMin && bpmMax ? (bpmMin + bpmMax) / 2 : bpmMin ?? bpmMax ?? 120;
+  const bpm = baseBpm * (rhythm.tempoMultiplier ?? 1);
 
   useEffect(() => {
     if (!playing) return;
