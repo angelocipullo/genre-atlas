@@ -1,12 +1,17 @@
 import itRaw from "../data/genres.it.json";
 import enRaw from "../data/genres.en.json";
-import type { Genre, GenresDataset, ParentRef, RelationKind } from "../types";
+import rhythmsRaw from "../data/rhythms.json";
+import type { Genre, GenresDataset, ParentRef, RelationKind, RhythmPattern } from "../types";
 import type { Locale } from "../i18n/locales";
 
 const RAW: Record<Locale, GenresDataset> = {
   it: itRaw as unknown as GenresDataset,
   en: enRaw as unknown as GenresDataset,
 };
+
+// Rhythm patterns are language-independent, so they're kept in one shared
+// file (keyed by slug) instead of being duplicated per locale dataset.
+const RHYTHMS: Record<string, RhythmPattern> = rhythmsRaw as Record<string, RhythmPattern>;
 
 const RELATION_LABELS: Record<Locale, Record<RelationKind, string>> = {
   it: {
@@ -63,7 +68,10 @@ export interface GenreData {
 }
 
 function buildGenreData(dataset: GenresDataset, locale: Locale): GenreData {
-  const genres: Genre[] = dataset.genres;
+  const genres: Genre[] = dataset.genres.map((g) => ({
+    ...g,
+    rhythm: RHYTHMS[g.slug] ?? null,
+  }));
 
   const genreBySlug: Map<string, Genre> = new Map(genres.map((g) => [g.slug, g]));
 

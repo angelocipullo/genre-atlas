@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useLanguage } from "../i18n/LanguageContext";
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import StepSequencer from "../components/StepSequencer";
 import type { RelationKind } from "../types";
 import "./GenrePage.css";
 
@@ -88,6 +89,18 @@ export default function GenrePage() {
         <p className="detail__summary">{genre.summary}</p>
         <p className="detail__description">{genre.description}</p>
         {genre.history && <p className="detail__description">{genre.history}</p>}
+
+        {genre.rhythm && (
+          <section className="detail__section">
+            <h3>{t("genre.rhythm")}</h3>
+            <StepSequencer
+              key={genre.slug}
+              rhythm={genre.rhythm}
+              bpmMin={genre.bpmMin}
+              bpmMax={genre.bpmMax}
+            />
+          </section>
+        )}
 
         {genre.parents.length > 0 && (
           <section className="detail__section">

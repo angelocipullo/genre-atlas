@@ -12,6 +12,14 @@ export interface TrackRef {
   note: string | null;
 }
 
+export interface RhythmPattern {
+  steps: number;
+  kick?: number[];
+  snare?: number[];
+  hats?: number[];
+  perc?: number[];
+}
+
 export interface Genre {
   slug: string;
   name: string;
@@ -30,6 +38,7 @@ export interface Genre {
   parents: ParentRef[];
   tracks: TrackRef[];
   sources: unknown[];
+  rhythm: RhythmPattern | null;
 }
 
 export interface GenresDataset {
